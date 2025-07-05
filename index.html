@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نمونه کار هواشناسی با جاوا اسکریپت | طراحی شیرازی</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        
+        .description {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .weather-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .weather-icon {
+            font-size: 50px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>نمونه کار هواشناسی با جاوا اسکریپت</h1>
+        <p>طراحی شده توسط شیرازی</p>
+    </header>
+    
+    <div class="description">
+        <h2>توضیحات پروژه</h2>
+        <p>
+            این یک نمونه کار هواشناسی است که با استفاده از جاوا اسکریپت طراحی شده است. 
+            این برنامه قادر است اطلاعات آب و هوایی را از یک API دریافت کرده و به صورت زیبا نمایش دهد.
+            ویژگی‌های این پروژه شامل نمایش دما، وضعیت جوی، سرعت باد و رطوبت می‌باشد.
+        </p>
+        <p>
+            این پروژه به صورت ریسپانسیو طراحی شده و در تمام دستگاه‌ها به خوبی نمایش داده می‌شود.
+        </p>
+    </div>
+    
+    <div class="weather-container">
+        <h2>نمایش وضعیت آب و هوا</h2>
+        <div class="weather-icon">☀️</div>
+        <h3>تهران</h3>
+        <p>دما: ۲۵ درجه سانتیگراد</p>
+        <p>وضعیت: آفتابی</p>
+        <p>رطوبت: ۴۰٪</p>
+        <p>سرعت باد: ۱۰ کیلومتر بر ساعت</p>
+    </div>
+    
+    <div class="contact-info">
+        <h3>اطلاعات تماس</h3>
+        <p>طراح: شیرازی</p>
+        <p>پیامک: ۰۹۰۳۱۷۰۱۸۹۵</p>
+    </div>
+    
+    <script>
+        // اینجا کدهای جاوا اسکریپت مربوط به هواشناسی قرار می‌گیرد
+        console.log('نمونه کار هواشناسی با جاوا اسکریپت');
+        
+        // مثال از یک تابع برای دریافت اطلاعات آب و هوا
+        function getWeatherData(city) {
+            // در اینجا می‌توان از API های هواشناسی مانند OpenWeatherMap استفاده کرد
+            return {
+                temp: 25,
+                condition: 'آفتابی',
+                humidity: 40,
+                windSpeed: 10
+            };
+        }
+    </script>
+</body>
+</html>
